@@ -411,9 +411,17 @@ FodyWeavers.xsd
 *.vsix
 
 # macOS/Xcode local build output
+.DS_Store
+**/.DS_Store
 build/
+build.log
 DerivedData/
 *.xcuserstate
+xcuserdata/
+*.xcuserdatad/
+*.moved-aside
+*.xcscmblueprint
+*.xccheckout
 
 # Locally packaged app bundles
 dist/
